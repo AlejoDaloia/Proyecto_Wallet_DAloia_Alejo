@@ -56,17 +56,23 @@ const Totp = () => {
             flex: 1,
           }}
         >
-          <img src="/assets/raulo-coin-logo.png" alt="raulCoin" style={{ width: 300, height: 300 }} />
+          <img
+            className="floating-logo"
+            src="/assets/raulocoinlogo.png"
+            alt="raulCoin"
+            style={{ width: '80%', height: 'auto', border: '0px solid white' }}
+          />
         </Box>
         <Paper
           sx={{
             flex: 1,
-            p: 4,
+            p: { xs:2, sm: 4 },
             bgcolor: '#F2E2C4',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
-            alignItems: 'center',
+            maxHeight: { xs: '90dvh', sm: '90dvh' },
+            overflowY: 'auto',
           }}
         >
           <Typography variant="h5" gutterBottom>

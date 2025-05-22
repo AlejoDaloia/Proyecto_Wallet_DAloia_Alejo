@@ -17,8 +17,7 @@ const TransferProof = () => {
   return (
     <Box
       sx={{
-        height: '100dvh',
-        width: '100%',
+        height: '100vh',
         backgroundColor: '#0F1B26',
         backgroundImage: 'url("/assets/background-image-waves.svg")',
         backgroundRepeat: 'no-repeat',
@@ -42,10 +41,10 @@ const TransferProof = () => {
           elevation={6}
           sx={{
             width: '100%',
-            maxWidth: { xs: 350, sm: 400 },
+            maxWidth: { xs: 600, sm: 500 },
             bgcolor: 'rgba(250, 243, 236, 0.95)',
             borderRadius: 4,
-            p: { xs: 3, sm: 5 },
+            p: { xs: 0.5, sm: 4 },
             backdropFilter: 'blur(6px)',
             display: 'flex',
             flexDirection: 'column',

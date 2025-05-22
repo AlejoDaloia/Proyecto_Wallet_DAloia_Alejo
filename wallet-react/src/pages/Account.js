@@ -134,6 +134,7 @@ const Account = () => {
           display: 'flex',
           flexDirection: 'column',
           gap: 2,
+          overflowY: 'auto',
         }}
       >
         <Box display="flex" justifyContent="space-between" alignItems="center">
